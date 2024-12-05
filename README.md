@@ -19,16 +19,57 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
 1. **Crear directorios y archivos:**  
    - Desde tu carpeta principal (`~/`), crea un directorio llamado `GitApellido1Nombre2425`.
 ![img](imagenes/creacionRepo.png)
-   - Dentro del directorio `GitApellido1Nombre2425`, crea una subcarpeta llamada `src` usando rutas relativas.
-   - Crea un archivo `README.md` en `GitApellido1Nombre2425` con una breve descripción del proyecto, **usa costantemente el terminal**.
 
-2. **Inicializa Git:**  
+   **Creo la carpeta GitSaidiAsad2425:**  
+         mkdir GitSaidiAsad2425
+   **Compruebo que se ha creado:**
+         ls -l
+     
+   - Dentro del directorio `GitApellido1Nombre2425`, crea una subcarpeta llamada `src` usando rutas relativas.
+![img](imagenes/crearSRC.png)
+
+   **Entro al directorio:**
+         cd GitSaidiAsad2425/
+   **Creo la subcarpeta escribiendo la ruta relativa**
+         mkdir /home/asad.saidi.7e8/GitSaidiAsad2425/src
+   **Ls para confirmar que se ha creado**
+         ls
+
+   - Crea un archivo `README.md` en `GitApellido1Nombre2425` con una breve descripción del proyecto, **usa costantemente el terminal**.
+![img](imagenes/crearReadme.png)
+   **Creo el archivo README.md**
+         echo > README.md
+   **ls para confirmar**
+     ![img](imagenes/editaReadme.png)
+   **Para editar el archivo utilizo**.
+         nano README.md
+         escribo el contenido
+         cntrl + s para guardar los cambios
+         cntrl + x para salir del editor y volver a la terminal
+     
+3. **Inicializa Git:**  
    - Entra en el directorio y conviértelo en un repositorio Git.
+   ![img](imagenes/iniciarRepo.png)
+   **Incio el repositorio**
+         git init .
+
    - Agrega un archivo `.gitignore` y configúralo para ignorar [archivos de log y carpetas de configuración temporales.](https://www.atlassian.com/es/git/tutorials/saving-changes/gitignore)
+   ![img](imagenes/creacionGitignore.png)
+   **Para crear el archivo**
+         touch .gitignore
+   **Configurar para ignorar**
+         Para ignorar los archivos de LOG :    *.log  
+         Para ignorar todas las carpetas ocultas:    .*/
+         Para ignorar todas las carpetas llamadas ‘temp’
+         cntrl + s para guardar los cambios
+         cntrl + x para salir del editor y volver a la terminal
+
+   
+     
    - ¿Qué es el archivo `.gitignore` y para que sirve?
    - Crea una estructura básica de web `index.html`, `style.css`, `main.js`.
 
-3. **Primera confirmación:**  
+4. **Primera confirmación:**  
    - Haz un `git add` de todos los archivos y realiza un commit inicial con el mensaje:  
      `Inicio del proyecto con README.md y estructura básica`.
 
