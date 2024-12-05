@@ -18,7 +18,7 @@ Tu tarea es crear y administrar el repositorio siguiendo las instrucciones que t
 ### **Parte 1: Preparación del Proyecto**
 1. **Crear directorios y archivos:**  
    - Desde tu carpeta principal (`~/`), crea un directorio llamado `GitApellido1Nombre2425`.
-![img](creacionRepo.png)
+![img](imagenes/creacionRepo.png)
    - Dentro del directorio `GitApellido1Nombre2425`, crea una subcarpeta llamada `src` usando rutas relativas.
    - Crea un archivo `README.md` en `GitApellido1Nombre2425` con una breve descripción del proyecto, **usa costantemente el terminal**.
 
